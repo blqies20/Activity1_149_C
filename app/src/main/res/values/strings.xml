@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Activity1_149_C</string>
+    <string name="nama">Soobin</string>
+    <string name="nope">0987654321</string>
+    <string name="judul">QR_Konsumsi</string>
+    <string name="tombol">Submit</string>
+
+    <string name="ghibli">My Neighbor Totoro</string>
+</resources>
