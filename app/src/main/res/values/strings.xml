@@ -1,9 +1,22 @@
 <resources>
     <string name="app_name">Activity1_149_C</string>
-    <string name="nama">Soobin</string>
+    <string name="nama">Choi Soobin</string>
     <string name="nope">0987654321</string>
     <string name="judul">QR_Konsumsi</string>
     <string name="tombol">Submit</string>
 
-    <string name="ghibli">My Neighbor Totoro</string>
+    <string name="ghibli">My Neighbor</string>
+    <string name="ghibl">Totoro</string>
+    <string name="button">Choose</string>
+
+    <string name="tekan1">tekan1</string>
+    <string name="tekan2">tekan2</string>
+    <string name="pilihan">Select your magic</string>
+
+    <string name="name">Name:</string>
+    <string name="tname">Enter Your Name</string>
+    <string name="phone">Phone:</string>
+    <string name="tphone">Enter Your Phone Number</string>
+    <string name="address">Address:</string>
+    <string name="taddress">Enter Your Address</string>
 </resources>
