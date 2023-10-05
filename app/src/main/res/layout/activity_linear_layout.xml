@@ -1,40 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LinearLayout">
+    android:orientation="vertical"
+    tools:context=".LinearLayout"
+    android:background="#FFF5BA">
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageView13"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/img_fire" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="#FFABAB"
+            android:gravity="center"
+            android:text="@string/tekan1"
+            android:textColor="@color/black"></Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFABAB"
+            android:gravity="center"
+            android:text="@string/tekan2"
+            android:textColor="@color/black"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF6961"
+            android:textColor="@color/black"
+            android:text="Button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="left"
+            android:backgroundTint="#C06374"
+            />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="205dp"
+            android:text="right"
+            android:backgroundTint="#C06374"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/img_ghibli"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="121dp" />
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        app:srcCompat="@drawable/img_logo"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp"
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/left_arrow" />
 
-        tools:layout_gravity="top|left"
-        tools:layout_marginLeft="160dp" />
 
-    <TextView
-        android:id="@+id/tx1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top|center"
-        android:text="@string/ghibli"
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="127dp" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/pilihan"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="right"
+            app:srcCompat="@drawable/right_arrow" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
